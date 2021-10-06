@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
+.headingZine {
+	display: flex;
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin-top: 2%;
+	/* margin-bottom: 1rem; */
+	font-family: "Crafty Girls", cursive;
+	font-size: 38px;
+	font-weight: normal;
+	margin-bottom: 4%;
+	margin-left: 6%;
+	align-self: center;
+	justify-content: center;
+}
+.para {
+	font-family: "Crafty Girls", cursive;
+	font-size: 23px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	color: rgb(20, 16, 198);
+	filter: contrast(200%);
+	text-align: center;
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.posts {
+	/* margin: auto; */
+	/* width: 90%;
+	padding: 10px; */
+	display: block;
+	margin-left: 7%;
+	margin-right: auto;
+	width: 90%;
+	margin-top: -40px;
+}
+.pic {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	width: 265px;
+	height: auto;
+	margin: 5px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%);
+	margin-right: 30px;
+	margin-left: 30px;
+	/* width: 37%;
+	height: auto;
+	margin: 5px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%); */
+}
+.pic1 {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	width: 275px;
+	height: auto;
+	margin: 5px;
+	box-shadow: 6px 6px 13px 3px rgb(72, 140, 243);
+	filter: brightness(92%) contrast(120%);
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.row1 {
+	display: flex;
+	margin-right: 10%;
+}
+.row2 {
+	/* display: block; */
+	display: flex;
+	margin-right: 5%;
+}
+.row3 {
+	display: flex;
+	width: 50%;
+	/* margin: auto; */
+	/* justify-content: flex-start; */
+}
+@media only screen and (max-width: 760px) {
+	.row1,
+	.row2,
+	.row3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.row3 {
+		width: 100%;
+	}
+	.pic {
+		width: 75%;
+		margin: 30px;
+	}
+	.pic1 {
+		width: 75%;
+		margin: 30px;
+	}
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
+.headPres {
+	display: flex;
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin-top: 2%;
+	/* margin-bottom: 1rem; */
+	font-family: "Crafty Girls", cursive;
+	font-size: 38px;
+	font-weight: normal;
+	margin-bottom: 4%;
+	margin-left: 6%;
+	align-self: center;
+	justify-content: center;
+}
+.postPres {
+	/* margin: auto; */
+	/* width: 90%;
+	padding: 10px; */
+	display: block;
+	margin-left: 7%;
+	margin-right: auto;
+	width: 90%;
+	margin-top: -40px;
+}
+.picPres {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	width: 265px;
+	height: auto;
+	margin: 15px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%);
+	margin-right: 30px;
+	margin-left: 30px;
+	/* width: 37%;
+	height: auto;
+	margin: 5px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%); */
+}
+.row1Pres {
+	display: flex;
+	margin-right: 10%;
+}
+@media only screen and (max-width: 760px) {
+	.row1Pres {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.picPres {
+		width: 75%;
+		margin: 30px;
+	}
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
+.aboutZines {
+	border-style: dashed;
+	border-radius: 33px;
+	margin-top: 2%;
+	padding: 24px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+
+	/* margin: 40px; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 82%;
+}
+.aboutZines > .heroPara {
+	font-family: "Crafty Girls", cursive;
+	font-size: 21px;
+	color: rgb(51, 51, 51);
+	text-align: left;
+}
+.cardContainer {
+	/* margin-left: 4rem;
+	margin-right: 4rem; */
+	display: grid;
+	grid-template-columns: [one] 50% [two] 50%;
+	grid-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% - 4rem);
+}
+.upcoming,
+.newLaunch {
+	/* margin: rem; */
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	border-radius: 5px;
+	padding: 1rem;
+	padding-top: 2rem;
+	margin-bottom: 2rem;
+}
+/* .newLaunch {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+} */
+.burp,
+.idor,
+.docker {
+	width: 37%;
+	height: auto;
+	margin: 5px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%);
+}
+.burp {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	height: auto;
+}
+.launchPics {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+}
+.cardHeading {
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 1rem;
+	font-family: "Crafty Girls", cursive;
+	font-size: 38px;
+	font-weight: normal;
+	margin-bottom: 5%;
+}
+.upcoming {
+	margin-left: 20%;
+}
+img:hover {
+	/* transition: "all .2s ease-in-out"; */
+	transform: scale(1.1);
+}
+@media only screen and (max-width: 840px) {
+	.cardContainer {
+		grid-template-columns: [one] 100%;
+		grid-template-rows: [one] [two];
+		margin-top: 10px;
+	}
+	.burp {
+		width: 48%;
+	}
+
+	.aboutZines {
+		width: calc(100% - 16rem);
+	}
+
+	.newLaunch {
+		margin-left: 20%;
+	}
+}

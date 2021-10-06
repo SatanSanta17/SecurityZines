@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
+* {
+	width: 100;
+	padding: 0;
+	margin: 0;
+}
+.containerOfHeader {
+	width: 100%;
+	background: #333333;
+	height: 160px;
+	/* margin-bottom: 10px; */
+	border-bottom: 40px dotted rgb(253, 254, 255);
+	/* border-bottom-color: transparent; */
+}
+h1 {
+	justify-content: center;
+	color: rgb(255, 215, 48);
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 35px;
+	text-shadow: 3px 0px 10px pink;
+	color: rgb(244, 59, 82);
+	font-size: 50px;
+	height: 20%;
+	margin-bottom: 0px;
+	font-family: "Crafty Girls", cursive;
+	text-shadow: 3px 0px 0px cyan;
+	filter: contrast(134%);
+	text-decoration: underline;
+}
+h1:hover {
+	transform: scale(1.1);
+	/* transition: 'all .2s ease-in-out'; */
+}
+.headerPara {
+	text-align: center;
+	color: cyan;
+	font-family: "Crafty Girls", cursive;
+	font-size: 1em;
+	margin: 0;
+	margin-top: 0;
+	transform: perspective(2500px) scale(1);
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	border-bottom-style: none;
+	border-bottom-color: rgb(83, 217, 244);
+	filter: contrast(191%);
+}

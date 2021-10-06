@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
+.Printable {
+	background-color: rgb(49, 49, 53);
+	/* background-color: grey; */
+	border-radius: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	padding-bottom: 20px;
+}
+.headPrint {
+	display: flex;
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin-top: 2%;
+	/* margin-bottom: 1rem; */
+	font-family: "Crafty Girls", cursive;
+	color: white;
+	font-size: 31px;
+	font-weight: normal;
+	margin-bottom: 5%;
+	margin-left: 6%;
+	align-self: center;
+	justify-content: center;
+	padding-top: 7px;
+}
+.postP {
+	display: block;
+	margin-top: -60px;
+}
+.picP {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	width: 265px;
+	height: auto;
+	margin: 15px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%);
+	margin-right: 30px;
+	margin-left: 30px;
+	/* width: 37%;
+	height: auto;
+	margin: 5px;
+	box-shadow: 6px 6px 13px 3px gray;
+	filter: brightness(92%) contrast(120%); */
+}
+.row1P {
+	display: flex;
+	margin-right: 10%;
+}
+.row2P {
+	/* display: block; */
+	display: flex;
+	margin-right: 5%;
+}
+/* .row3F {
+	display: flex;
+	width: 50%;
+	margin: auto;
+	justify-content: flex-start;
+} */
+@media only screen and (max-width: 760px) {
+	.row1P,
+	.row2P {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.picP {
+		width: 75%;
+		margin: 30px;
+	}
+}
